@@ -43,10 +43,10 @@ def main():
     # Use nargs='?' to allow calling without a file name, to read from stdin.
     # "default='-'" is used to make fileinput behave correctly when invoking
     # in a pipe (reading from stdin) with arguments, e.g. "cat somefile.txt
-    # | thisscript.py --to lower". If no file name is given fileinput attempts
+    # | thisscript.py --tolower". If no file name is given fileinput attempts
     # to use the full command line as the parameter. This results in fileinput
-    # trying to open the files '--to' and 'lower'. Setting the defailt to '-'
-    # points fileinput to stdin in that case.
+    # trying to open the file '--tolower'. Setting the defailt to '-' points
+    # fileinput to stdin in that case.
     ap.add_argument('files', metavar='file1 file2 ...',
                     help='Files to process', nargs='?', default='-')
 
