@@ -18,7 +18,7 @@ Covers:
 It uses `argparse` because it's available with python. If external depedencies
 are not a problem, consider using [click](http://click.pocoo.org) (while
 [clint](https://github.com/kennethreitz/clint) and [docopt](https://github.com/docopt/docopt)
-are also good options, [click makes a compelling case for itself](http://click.pocoo.org/5/why/).
+are also good options, [click makes a compelling case for itself](http://click.pocoo.org/5/why/)).
 
 Sources for this code and command-line programs in general:
 
