@@ -42,6 +42,12 @@ def main():
     df['vacation days'] = df['hire date'].apply(vacation_days)
     print(df[['first name', 'vacation days']])
 
+    # Filter data based on column value
+    # Why use .loc here: https://stackoverflow.com/a/48411543, and the details
+    # in https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-label
+    df_high = df.loc[df['high salary'] == 'yes']
+    print(df_high)
+
 
 if __name__ == '__main__':
     main()
