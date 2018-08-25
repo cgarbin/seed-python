@@ -61,7 +61,25 @@ Examples:
     file.txt (defaults to '--tolower')
     *.txt --tolower  (file globbing)
     cat file.txt | thisscript.py (read from stdin)
-   
+
+## [seed-data-read-graph.py](./seed-data-read-graph.py)
+
+A seed for data loading, parsing, graphing in Python, using pandas
+
+Covers:
+
+* Read data from files
+* Manipulate the data
+* Filter data
+* Visualize data in graphs
+
+Sources:
+
+* https://towardsdatascience.com/exploratory-data-analysis-with-pandas-and-jupyter-notebooks-36008090d813
+* https://jeffdelaney.me/blog/useful-snippets-in-pandas/
+* https://pandas.pydata.org/pandas-docs/stable/tutorials.html
+* https://pandas.pydata.org/pandas-docs/stable/cookbook.html
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
