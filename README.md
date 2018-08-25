@@ -2,6 +2,10 @@
 
 Seed files for Python code
 
+* [Command-line argument parsing](#seed-command-line-arg-parsingpy)
+* [Command-line file processing](#seed-command-line-file-processingpy)
+* [Data reading, manipulating, graphing with pandas](#seed-data-read-graphpy)
+
 ## [seed-command-line-arg-parsing.py](./seed-command-line-arg-parsing.py)
 
 A seed for command-line argument parsing in Python.
