@@ -8,6 +8,13 @@ Covers:
 * Filter data
 * Visualize data in graphs
 
+Sources:
+
+* https://towardsdatascience.com/exploratory-data-analysis-with-pandas-and-jupyter-notebooks-36008090d813
+* https://jeffdelaney.me/blog/useful-snippets-in-pandas/
+* https://pandas.pydata.org/pandas-docs/stable/tutorials.html
+* https://pandas.pydata.org/pandas-docs/stable/cookbook.html
+
 """
 
 import matplotlib.pyplot as plt
