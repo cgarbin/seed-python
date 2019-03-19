@@ -80,11 +80,11 @@ def main():
             'r' if x == 'yes' else 'b' for x in df['high salary']])
 
     # Using categorical data for colors
-    # While possible in pandas/matlibplot, this is easier with seaborn
+    # While possible in pandas/matplotlib, this is easier with seaborn
     import seaborn as sns
     sns.pairplot(x_vars=['hire date'], y_vars=['salary'],
                  data=df, hue='education level', height=5)
-    # Use matlibplot to control the legend (seaborn is based on matlibplot)
+    # Use matplotlib to control the legend (seaborn is based on matplotlib)
     # Without this line the legend is cut off (displayed to the right, not visible)
     plt.legend(loc=0)
 
