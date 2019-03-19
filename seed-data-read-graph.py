@@ -37,6 +37,17 @@ def main():
     df['high salary'] = ['yes' if x >= 7000 else 'no' for x in df['salary']]
     print(df)
 
+    # Add a column using vectorized operation with isin()
+    high_salary = df['salary'] >= 7000
+    low_salary = df['salary'] < 7000
+    df.loc[high_salary, 'high salary'] = 'yes'
+    df.loc[low_salary, 'high salary'] = 'no'
+
+    # What option to use?
+    # See https://stackoverflow.com/q/50375985/336802 for comparison of methods
+    # and https://realpython.com/fast-flexible-pandas/ for a detailed, step-by-
+    # step case study of performance improvement.
+
     # Add a column using a function - for more involved cases
     def vacation_days(hire_date):
         today = pd.to_datetime('today')
